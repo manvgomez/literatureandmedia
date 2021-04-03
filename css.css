@@ -1,0 +1,382 @@
+body{
+    background-color: rgb(14, 60, 75);
+    
+
+}
+.square052{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(14, 60, 75);
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin-left: 0%;
+    font-family: 'Denk One', sans-serif;
+    float: left;
+    
+}
+
+.square053{
+    width: 43%; 
+    height: 93%;
+    background-color: rgb(14, 60, 75);
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 0%;
+}
+
+.square053cuentos{
+    width: 43%; 
+    height: 93%;
+    background-color: rgb(14, 60, 75);
+    float: left;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    margin-right: 0%;
+}
+
+.square054titulo{
+    height: 10%;
+    width: 44%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #6CA62C;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 380%;
+    color:  rgb(255, 255, 255);
+}
+
+
+.square054{
+    width: 44%; 
+    height: 93%;
+    margin-left: 3%;
+    background-color: rgb(14, 60, 75);
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    overflow-y: scroll;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+}
+
+.squaredentroalt{
+    width: 66.66%; 
+    height: 66.66%;
+    background-color: rgb(191, 103, 103) ;box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    float: left;
+    transition:all 0.5s;
+    
+}
+
+
+
+.squaredentro{
+    width: 33.33%; 
+    height: 33.33%;
+    background-color: rgb(191, 103, 103) ;box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    float: left;
+    transition:all 0.5s;
+    
+}
+
+.squaredentro2{
+    width: 33.33%; 
+    height: 33.33%;
+    background-color: rgb(248, 10, 10);;box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    float: left;
+    transition:all 0.5s;
+    
+
+}
+
+.squaredentro:hover{
+    width: 33.33%; 
+    height: 33.33%;
+    background-color: rgb(191, 103, 103) ;box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    float: left;
+    transition:all 0.5s;
+    cursor: pointer;
+
+}
+
+.squaredentro2:hover{
+    width: 33.33%; 
+    height: 33.33%;
+    background-color: rgb(248, 10, 10);;box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    float: left;
+    transition:all 0.5s;
+      cursor: pointer;
+}
+
+.contenedor {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+  }
+
+  .contenedor {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .contenedor img {
+    position: absolute;
+    left: 0;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  .contenedor img.top:hover {
+    opacity: 0;
+  }
+
+  .contenedor2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .contenedor2 img {
+    position: absolute;
+    left: 0;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  .contenedor2 img.top:hover {
+    opacity: 0;
+  }
+
+  .titulo{
+    height: 10%;
+    width: 50%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: #6CA62C;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 380%;
+    color:  rgb(255, 255, 255);
+    
+  }
+
+  .instrucciones{
+    height: 54%;
+    width: 46%;
+    float: left;
+    margin-left: 3%;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 70%;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1.5%;
+    margin-top: 1%;
+    background-color: #FFC000;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    overflow-y: scroll;
+  }
+
+  .button1{
+    height: 100%;
+    width: 100%;
+    align-content:  center;
+    font-family: 'Denk One', sans-serif;
+    color: white;
+    background-color: rgb(14, 60, 75);
+    border-color: transparent;
+    font-size: 180%;
+    transition:all 0.5s;
+    margin: 0%;
+  
+}
+
+.button10{
+    height: 100%;
+    width: 100%;
+    align-content:  center;
+    font-family: 'Denk One', sans-serif;
+    color: white;
+    background-color: rgb(14, 60, 75);
+    border-color: transparent;
+    font-size: 180%;
+    transition:all 0.5s;
+    margin: 0%;
+  
+}
+
+
+
+.clic{
+    height: 5%;
+    width: 50%;
+    background-color: #DB1F62;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 120%;
+    color: rgb(255, 255, 255);box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    padding-right: 0%;
+    padding-top: 1%;
+    float: left;
+    margin-left: 3%;
+    align-content: center;
+    transition:all 0.5s;
+}
+
+.clic:hover{
+    height: 5%;
+    width: 50%;
+    background-color: #ffffff ;
+    font-family: 'Staatliches', cursive;
+    color: rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    padding-right: 0%;
+    padding-top: 1%;
+    margin-left: 3%;
+    transition:all 0.5s;
+    cursor: pointer;
+}
+
+
+.clic5{
+    height: 5%;
+    width: 50%;
+    background-color: #8A3CC4;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 120%;
+    color: rgb(255, 255, 255);box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    padding-right: 0%;
+    padding-top: 1%;
+    float: left;
+    margin-left: 3%;
+    align-content: center;
+    transition:all 0.5s;
+}
+
+.clic5:hover{
+    height: 5%;
+    width: 50%;
+    background-color: #ffffff ;
+    font-family: 'Staatliches', cursive;
+    color: rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    padding-right: 0%;
+    padding-top: 1%;
+    margin-left: 3%;
+    transition:all 0.5s;
+    cursor: pointer;
+}
+
+
+.clic2{
+    height: 5%;
+    width: 88%;
+    background-color: #6CA62C;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: 'Staatliches', cursive;
+    font-size: 170%;
+    color: rgb(255, 255, 255);box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+   text-align: center;
+    padding-right: 0%;
+    padding-top: 1%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 3%;
+    align-content: center;
+    transition:all 0.5s;
+}
+
+.clic2:hover{
+    height: 5%;
+    width: 88%;
+    background-color: #FFC000;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: 'Staatliches', cursive;
+    font-size: 170%;
+    color: #ffffff;
+    float: left;
+    padding-right: 0%;
+    padding-top: 1%;
+    margin-left: 06%;
+    transition:all 0.5s;
+    cursor: pointer;
+}
+
+.clic14{
+    height: 5%;
+    width: 50%;
+    margin-top: 1%;
+    background-color: #DB1F62;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 120%;
+    color: rgb(255, 255, 255);box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    float: left;
+    align-content: center;
+    transition:all 0.5s;
+    padding-top: 1%;
+}
+
+.clic14:hover{
+    height: 5%;
+    width: 50%;
+    margin-top: 1%;
+    background-color: #ffffff ;
+    font-family: 'Staatliches', cursive;
+    color: rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    transition:all 0.5s;
+    cursor: pointer;
+    padding-top: 1%;
+}
+
+.clic15{
+    height: 5%;
+    width: 50%;
+    margin-top: 1%;
+    background-color: #8A3CC4;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 120%;
+    color: rgb(255, 255, 255);box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.561), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+    float: left;
+    align-content: center;
+    transition:all 0.5s;
+    padding-top: 1%;
+}
+
+.clic15:hover{
+    height: 5%;
+    width: 50%;
+    margin-top: 1%;
+    background-color: #ffffff ;
+    font-family: 'Staatliches', cursive;
+    color: rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    transition:all 0.5s;
+    cursor: pointer;
+    padding-top: 1%;
+}
